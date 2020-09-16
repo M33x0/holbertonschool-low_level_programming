@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - prints sizes of different data types
+ * Description: Prints sizes of char, int, long int, long long int, and float
+ * Return: 0
  */
 int main(void)
 {
