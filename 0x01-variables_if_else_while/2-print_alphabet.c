@@ -1,13 +1,12 @@
 #include <stdio.h>
 /**
-* main - Entry point
-* Return: Always 0 (Success)
-* Description: Print alphabet in lowercase using 'putchar'
-*/
-
+ * main - Entry point
+ * Description: Print the alphabet in lowercase using putchar
+ * Return: 0
+ */
 int main(void)
 {
-	char c;
+	char c = 'a';
 
 	while (c <= 'z')
 	{
@@ -18,4 +17,3 @@ int main(void)
 
 	return (0);
 }
-
