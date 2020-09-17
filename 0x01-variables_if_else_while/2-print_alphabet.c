@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
  * main - Entry point
- * Description: Print the alphabet in lowercase using putchar
- * Return: 0
- */
+ * Description : Print alphabet with putchar
+ * Return: Always 0 (Success)
+*
+*/
 int main(void)
 {
 char c = 'a';
