@@ -2,17 +2,16 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description : Prints the low alphabet in reverse with putchar
+ * Description : Prints the low alphabet in reverse
  * Return: Always 0 (Success)
  *
  */
 int main(void)
 {
 int i;
-
-for (i = '0' ; i <= '9' ; i++)
-{	
-if(i != '0')
+for (i = '0'; i <= '9'; i++)
+{
+if (i != '0')
 {
 putchar(',');
 putchar(' ');
