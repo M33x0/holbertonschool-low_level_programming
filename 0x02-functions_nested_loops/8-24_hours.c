@@ -1,10 +1,9 @@
 #include "holberton.h"
 /**
-*print_last_digit - the sign number
-*@d: integer
-*Return: value of last digit
+*jack_bauer - the sign number
+*
+*Return: nothing
 */
-
 void jack_bauer(void)
 {
 int hours, minutes, h1, h2, m1, m2;
