@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
-*jack_bauer - 24hr Chrono
-*@void: shayy
-*Return: kifkif shayy
+*print_last_digit - the sign number
+*@d: integer
+*Return: value of last digit
 */
 
 void jack_bauer(void)
