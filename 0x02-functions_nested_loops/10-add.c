@@ -1,11 +1,11 @@
 #include "holberton.h"
 /**
-*add - add two numbers
-*@result: integer
-*Return: result
+*print_last_digit - the sign number
+*@d: integer
+*Return: value of last digit
 */
 int add(int a, int b)
 {
-int result = a + b;
-return (result);
+int r = a + b;
+return (r);
 }
