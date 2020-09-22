@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * main - Entry point
+ * print_alphabet - blabla
  * Description : Prints alphabet in lowercase using _putchar
  * Return: Always 0 (Success)
 *
