@@ -1,11 +1,10 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-*print_to_98 - lalala
+*print_to_98 - gang
 *@a: integer
 *Return: 1 if c is lowercase
 */
-
 void print_to_98(int a)
 {
 int i;
