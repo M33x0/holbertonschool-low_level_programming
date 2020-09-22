@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
- * _islower - lala
- * Description : Function that check lowercase character
- *
- * Return: 1 if lowercase else return 0 otherwise
- */
+ * print_alphabet - blabla
+ * Description : Prints alphabet in lowercase
+ * Return: Always 0 (Success)
+*
+*/
 int _islower(int c)
 {
 if (c >= 97 && c <= 122)
