@@ -2,8 +2,7 @@
 /**
 *_isalpha - blabla
 *Description : Prints alphabet in lowercase
-*Return: Always 0 (Success)
-*
+*Return: 1 if c is lowercase,otherwise 0
 */
 int _isalpha(int c)
 {
