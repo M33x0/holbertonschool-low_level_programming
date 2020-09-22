@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 *add - add two numbers
-*@a,@b: integer integer
+*@result: integer
 *Return: result
 */
 int add(int a, int b)
