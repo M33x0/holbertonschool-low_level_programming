@@ -1,8 +1,7 @@
 #include "holberton.h"
 /**
-*jack_bauer - the sign number
-*
-*Return: nothing
+*jack_bauer - Prints every minutes 
+*Return : 0
 */
 void jack_bauer(void)
 {
