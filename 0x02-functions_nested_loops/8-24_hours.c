@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
-*jack_bauer - Prints every minutes 
-*Return : 0
+*jack_bauer- Counting
+*Return: 0
 */
 void jack_bauer(void)
 {
