@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
-*_isalpha - blabla
-*Description : Prints alphabet in lowercase
-*Return: 1 if c is lowercase,otherwise 0
+*_isalpha - lower upper  alpha
+*@c: integer
+*Return: 1 if c is lowercase
 */
 int _isalpha(int c)
 {
