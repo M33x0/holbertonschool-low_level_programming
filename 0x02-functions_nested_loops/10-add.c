@@ -2,7 +2,7 @@
 /**
 *print_last_digit - the sign number
 *Description : integer a,b,result
-*Return: value of last digit
+*Return: the result
 */
 int add(int a, int b)
 {
