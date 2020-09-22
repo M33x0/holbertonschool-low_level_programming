@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 *print_last_digit - the sign number
-*@d: integer
+*@r: integer
 *Return: value of last digit
 */
 int add(int a, int b)
