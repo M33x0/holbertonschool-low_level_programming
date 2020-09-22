@@ -1,7 +1,9 @@
 #include "holberton.h"
 /**
-*Descrition :Print_alphabet_x10- alpha * 10
-*Return: 0
+ * print_alphabet_x10 - blabla
+ * Description : Prints alphabet 10 times
+ * Return: Always 0 (Success)
+*
 */
 void print_alphabet_x10(void)
 {
