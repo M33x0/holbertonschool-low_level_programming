@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * int _islower:read - the f* code
+ * int _islower - read  the f* code
  * Description : Function that check lowercase character
  * Return 1 if lowercase else return 0 otherwise
  * 9- Check if c is between 9 & 122 from ASCII code
