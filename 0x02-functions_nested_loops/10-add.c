@@ -2,7 +2,7 @@
 /**
 *add- add two numbers
 *@a: num1
-*@a: num2
+*@b: num2
 *Return: result
 */
 int add(int a, int b)
