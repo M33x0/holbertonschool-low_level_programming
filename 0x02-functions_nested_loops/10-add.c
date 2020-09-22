@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
-*print_last_digit - the sign number
-*Description : integer a,b,result
-*Return: the result
+*add - add two numbers
+*@a,@b: integer integer
+*Return: result
 */
 int add(int a, int b)
 {
