@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 *_islower- lower alpha
-*Description: Check
+*@c: integer
 *Return: 1 if c is lowercase
 */
 int _islower(int c)
