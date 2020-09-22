@@ -1,9 +1,8 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-*print_to_98 - gang
-*@a: integer
-*Return: 1 if c is lowercase
+*print_to_98 - 9 times table
+*Return: 0
 */
 void print_to_98(int a)
 {
