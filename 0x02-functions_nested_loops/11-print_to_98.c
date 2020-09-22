@@ -4,30 +4,23 @@
 *print_to_98 - 9 times table
 *Return: 0
 */
-void print_to_98(int a)
+void print_to_98(int n)
 {
-int i;
-if (a < 98)
-{
-for (i = a; i <= 98; i++)
-{
-printf("%d", i);
-if (i != 98)
-printf(", ");
-}
-}
-else if (a > 98)
-{
-for (i = a; i >= 98; i--)
-{
-printf("%d", i);
-if (i != 98)
-printf(", ");
-}
-}
-else
-{
-printf("98");
-}
-printf("\n");
+
+	int i;
+
+	if (n <= 98)
+	{
+		for (i = n; i < 98; i++)
+		{
+			printf("%i, ", i);
+		}
+	} else
+	{
+		for (i = n; i > 98; i--)
+		{
+			printf("%i, ", i);
+		}
+	}
+	printf("98\n");
 }
