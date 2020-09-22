@@ -2,7 +2,6 @@
 /**
  * _islower - lala
  * Description : Function that check lowercase character
- *
  * Return: 1 if lowercase else return 0 otherwise
  */
 int _islower(int c)
