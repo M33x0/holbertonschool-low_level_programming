@@ -22,8 +22,8 @@ int main(void)
 		{
 			printf("%lu, ", b);
 			next = a + b;
-			f1 = f2;
-			f2 = next;
+			a = b;
+			b = next;
 		}
 	}
 	printf("\n");
