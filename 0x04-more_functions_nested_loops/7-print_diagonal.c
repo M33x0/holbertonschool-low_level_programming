@@ -1,13 +1,11 @@
 #include "holberton.h"
 
 /**
- * print_diagonal - prints a diagonal line of length n
+ * print_diagonal - prints a diagonal
  * @n: length of diagonal
  *
  * Return: void
  */
-
-
 void print_diagonal(int n)
 {
 int i, j;
