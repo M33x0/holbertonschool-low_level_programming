@@ -29,4 +29,7 @@ void print_square(int size);
 
 /*7-print_diagonal.c*/
 void print_diagonal(int n);
+
+/*10-print_triangle.c*/
+void print_triangle(int size);
 #endif
