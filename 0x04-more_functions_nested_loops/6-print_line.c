@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * more_numbers -prints straight lines
+ * print_line -prints straight lines
  *
  * Return: 0
  */
