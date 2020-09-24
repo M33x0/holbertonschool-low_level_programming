@@ -4,7 +4,7 @@
  * main - prints "Fizz" for numbers divisible by 3,
  * prints "Buzz" for numbers divisible by 5,
  * prints "FizzBuzz" for numbers divisible by 3 and 5
- * for numbers 1-100
+ * for numbers 1..100
  * Return: 0;
  */
 int main(void)
