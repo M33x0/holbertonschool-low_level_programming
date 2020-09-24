@@ -1,16 +1,16 @@
 #include "holberton.h"
 /**
- * mul -prints number from 0 to 9
+ * print_numbers -prints number 0..9\n
  *
- * Return: 0
+ * Return: void
  */
 
 void print_numbers(void)
 {
-        int i;
-        for(i = '0' ; i <= '9' ; i++)
-        {
-                _putchar(i);
-        }
-        _putchar('\n');
+int i;
+for (i = '0'; i <= '9'; i++)
+{
+_putchar(i);
+}
+_putchar('\n');
 }
