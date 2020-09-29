@@ -2,7 +2,7 @@
 
 /**
  * _puts - Print a string
- * @s: string to print
+ * @str: string to print
  */
 void _puts(char *str)
 {
@@ -11,7 +11,6 @@ while (*(str + i))
 {
 _putchar(*(str + i));
 i++;
-_putchar('\n');
 }
-
+_putchar('\n');
 }
