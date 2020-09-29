@@ -1,13 +1,6 @@
 #include "holberton.h"
 
 /**
- * _strlen - count length of a string
- * @s: pointer char
- * Return: the length of the string given
- */
-#include "holberton.h"
-
-/**
  * _strlen - returns the length of a string
  * @s: string to find length of
  *
@@ -20,6 +13,6 @@ int _strlen(char *s)
         {
                  i++;
         }
-       
+       for("")
         return (i);
 }
