@@ -20,4 +20,8 @@ void print_rev(char *s);
 
 /*5-rev_string*/
 void rev_string(char *s);
+
+/*6-puts2.c*/
+void puts2(char *str);
+
 #endif
