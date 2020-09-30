@@ -26,4 +26,7 @@ void puts2(char *str);
 
 /*8-print_array.c*/
 void print_array(int *a, int n);
+
+/*9-strcpy*/
+char *_strcpy(char *dest, char *src);
 #endif
