@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
- * puts2 - print only pair entry from thestring
+ * puts2 - print only pair entry from string
  * @str: string given
+ * Return : void
  */
 void puts2(char *str)
 {
