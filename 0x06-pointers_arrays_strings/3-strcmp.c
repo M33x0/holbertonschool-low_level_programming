@@ -8,19 +8,16 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-char ptr_1;
-char ptr_2;
-ptr_1 = *s1;
-ptr_2 = *s2;
 
-while ((ptr_1 != '\0' && ptr_2 != '\0') && ptr_1 == ptr_2)
+
+while ((*s1 != '\0' && *s2 != '\0') && *s1 == *s2)
 {
-ptr_1++;
-ptr_2++;
+s1++;
+s2++;
 }
-if (ptr_1 == ptr_2)
+if (*s1 == *s2)
 {
 return (0);
 }
-return (ptr_1 - ptr_2);
+return (*s1 - *s2);
 }
