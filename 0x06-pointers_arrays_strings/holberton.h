@@ -9,6 +9,9 @@ char *_strcat(char *dest, char *src);
 /*3-strcmp.c*/
 int _strcmp(char *s1, char *s2);
 
+/*1-strncat.c*/
+char *_strncat(char *dest, char *src, int n);
+
 /*2-strncpy.c*/
 char *_strncpy(char *dest, char *src, int n);
 
