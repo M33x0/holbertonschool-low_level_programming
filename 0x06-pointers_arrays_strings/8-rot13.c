@@ -17,6 +17,7 @@ for (j = 0; array1[j] != '\0' ; j++)
 if (s[i] == array1[j])
 {
 s[i] = array2[j];
+break;
 }
 }
 }
