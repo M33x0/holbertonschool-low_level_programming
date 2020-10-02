@@ -24,6 +24,8 @@ char *string_toupper(char *);
 /*7-leet.c*/
 char *leet(char *);
 
+/*8-rot13.c*/
+char *rot13(char *);
 /*100-print_number*/
 void print_number(int n);
 #endif
