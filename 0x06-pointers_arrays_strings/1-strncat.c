@@ -2,10 +2,10 @@
 
 /**
  * _strncat - function concatenates two strings
- * @dest: string to append to
- * @src: string to append
- * @n: number of bytes 
- * Return: concat string
+ * @dest: string
+ * @src: string
+ * @n: number of bytes
+ * Return: a pointer to the resulting string (dest)
  */
 char *_strncat(char *dest, char *src, int n)
 {
