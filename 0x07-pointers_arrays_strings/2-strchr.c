@@ -6,21 +6,26 @@
  * @c: character to locate
  * Return: pointer s
  */
+#include "holberton.h"
+/**
+*  *_strchr - function that locates a character in a string.
+* @s: string
+* @c: character to locate
+* Return: a located character
+*/
+
 char *_strchr(char *s, char c)
 {
-	unsigned int i = 0;
+	int i;
 
-	while (s[i] != '\0')
+	i = 0;
+	while (s[i] >= '\0')
 	{
 		if (s[i] == c)
 		{
-			return (s);
+		return (&s[i]);
 		}
-		else if (s[i] == 0)
-		{
-			return (0);
-		}
-		s++;
+	i++;
 	}
-	return (s);
+return (0);
 }
