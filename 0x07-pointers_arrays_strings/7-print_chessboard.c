@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
-*print_chessboard - prints the sum of the two diagonals
-*@a: string
-*Return: void
-*/
+ * print_chessboard - print the chessboard
+ * @a: pointer to array
+ * Description: this print the chessboard
+ */
 void print_chessboard(char (*a)[8])
 {
 	int i, j;
