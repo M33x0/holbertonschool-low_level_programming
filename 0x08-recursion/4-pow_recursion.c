@@ -1,9 +1,10 @@
 #include "holberton.h"
 
 /**
- *_pow_recursion- calculate power of y and x
- *@x: integer
- *@y: integer
+ * _pow_recursion- return the value of x raised to the power of y
+ * @x: integer value to rise
+ * @y: integer power value
+ * Return: 0
  */
 int _pow_recursion(int x, int y)
 {
