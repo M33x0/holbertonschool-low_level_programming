@@ -1,5 +1,10 @@
 #include "holberton.h"
 
+/**
+ *_pow_recursion- returns the value of x power  y
+ *@x: integer
+ *@y: integer
+ */
 int _pow_recursion(int x, int y)
 {
 	if (y < 0)
