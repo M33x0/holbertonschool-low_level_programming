@@ -18,4 +18,6 @@ int factorial(int n);
 /*4-pow_recursion.c*/
 int _pow_recursion(int x, int y);
 
+/**/
+int wildcmp(char *s1, char *s2);
 #endif
