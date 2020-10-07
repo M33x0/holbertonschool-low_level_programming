@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- *_pow_recursion- returns the value of x power  y
+ *_pow_recursion- calculate power of y and x
  *@x: integer
  *@y: integer
  */
