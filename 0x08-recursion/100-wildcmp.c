@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * wildcmp - check the code for Holberton School students.
- * @s1: int
- * @s2: int
- * Return: Always 0.
+ * wildcmp - compare two strings
+ * @s1: char
+ * @s2: char
+ * Return: 0
  */
 
 int wildcmp(char *s1, char *s2)
