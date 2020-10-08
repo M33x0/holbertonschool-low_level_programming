@@ -18,6 +18,9 @@ int factorial(int n);
 /*4-pow_recursion.c*/
 int _pow_recursion(int x, int y);
 
-/**/
+/*100-wildcmp.*/
 int wildcmp(char *s1, char *s2);
+
+/*6-is_prime_number.c*/
+int is_prime_number(int n);
 #endif
