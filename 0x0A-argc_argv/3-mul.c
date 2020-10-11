@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point
- * @argc: Counts the number of parameters that go into main
- * @argv: Pointer of array of pointers containing strings entering main
- * Return:  0 (success)
- */
+*main - printing the number of arguments passed
+*@argc: length of argv
+*@argv: array of strings
+*Return: 1
+*/
 int main(int argc, char *argv[])
 {
 int result;
