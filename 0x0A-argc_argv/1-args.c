@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - Entry point
+ * @argc: Counts the number of parameters that go into main
+ * @argv: Pointer of array of pointers containing strings entering main
+ * Return:  0 (success)
+ */
+
+int main(int argc, char __attribute__((unused)) *argv[])
+{
+	if (argc > 0)
+	{
+		printf("%d", argc - 1 );
+	}
+	return (0);
+}
