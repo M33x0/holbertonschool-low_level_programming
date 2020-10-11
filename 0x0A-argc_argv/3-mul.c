@@ -15,12 +15,9 @@ int a, b, result;
 		printf("ERROR!!\n");
 		return (1);
 	}
-	else
-	{
 		a = atoi(argv[1]);
 		b = atoi(argv[2]);
 		result = a * b;
 		printf("%d\n", result);
-	}
-	return (0);
+	return (0);tg
 }
