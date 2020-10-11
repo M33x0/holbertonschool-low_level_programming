@@ -19,5 +19,5 @@ int a, b, result;
 		b = atoi(argv[2]);
 		result = a * b;
 		printf("%d\n", result);
-	return (0);tg
+	return (0);
 }
