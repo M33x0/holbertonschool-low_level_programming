@@ -18,6 +18,6 @@ int a, b, result;
 		a = atoi(argv[1]);
 		b = atoi(argv[2]);
 		result = a * b;
-		printf("%d\n", result);
+		printf("%i\n", result);
 	return (0);
 }
