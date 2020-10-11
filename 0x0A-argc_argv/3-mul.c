@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int a, b, result;
+int a, b, result;
 	if (argc != 3)
 	{
 		printf("ERROR!!");
@@ -22,5 +22,5 @@ int main(int argc, char *argv[])
 		result = a * b;
 		printf("%d\n", result);
 	}
-	return (0);	
+	return (0);
 }
