@@ -1,0 +1,4 @@
+/**{
+ char alpha[] = "abcdefghijklmnopqrstuvwxyz";
+ int i;
+*/
