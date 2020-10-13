@@ -12,8 +12,12 @@ char *_strdup(char *str)
 	unsigned int i;
 	char *duplicate;
 
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 	duplicate = malloc(sizeof(char));
-	if (str == NULL || duplicate == NULL)
+	if (duplicate == NULL)
 	{
 		return (NULL);
 	}
