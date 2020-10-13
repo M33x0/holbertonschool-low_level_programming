@@ -2,12 +2,6 @@
 #include <stdlib.h>
 
 /**
-*_strdup - returns a pointer to a newly allocated space
-* @str: char ,string to copied
-* Return: a pointer to the duplicate string
-*/
-
-/**
  * _strlen - returns the length of a string
  * @s: string to find length
  *
@@ -16,14 +10,18 @@
 int _strlen(char *s)
 {
 int i = 0;
-while (*(s + i))
-{
-i++;
-}
+	while (*(s + i))
+	{
+		i++;
+	}
 return (i);
 }
 
-
+/**
+*_strdup - returns a pointer to a newly allocated space
+* @str: char ,string to copied
+* Return: a pointer to the duplicate string
+*/
 char *_strdup(char *str)
 {
 	int i;
@@ -36,13 +34,13 @@ char *_strdup(char *str)
 	duplicate = malloc(sizeof(char) * _strlen(str));
 	if (duplicate == NULL)
 	{
-	return (NULL);
+		return (NULL);
 	}
+
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		duplicate[i] = str[i];
 	}
-	duplicate[i] = str[i];
+	duplicate[i + 1] = '\0';
 	return (duplicate);
-	return (0);
 }
