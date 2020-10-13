@@ -6,6 +6,24 @@
 * @str: char ,string to copied
 * Return: a pointer to the duplicate string
 */
+
+/**
+ * _strlen - returns the length of a string
+ * @s: string to find length
+ *
+ * Return: length of s
+ */
+int _strlen(char *s)
+{
+int i = 0;
+while (*(s + i))
+{
+i++;
+}
+return (i);
+}
+
+
 char *_strdup(char *str)
 {
 	int i;
@@ -15,7 +33,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	duplicate = malloc(sizeof(*str));
+	duplicate = malloc(sizeof(char) * _strlen(str));
 	if (duplicate == NULL)
 	{
 	return (NULL);
