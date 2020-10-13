@@ -11,7 +11,7 @@ char *create_array(unsigned int size, char c)
 {
 	unsigned int  i;
 	char *arr = NULL;
-
+	/*check the size of the array*/
 	if (size == 0)
 	{
 		return (0);
@@ -22,6 +22,7 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
+	/*loop initialize array with a specific character c*/
 	for (i = 0; i < size; i++)
 	{
 		arr[i] = c;
