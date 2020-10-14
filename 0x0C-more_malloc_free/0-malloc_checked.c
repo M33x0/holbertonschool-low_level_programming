@@ -8,7 +8,7 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	void *memory = NULL;
+	void *memory;
 
 	memory = malloc(sizeof(b));
 	if (memory == NULL)
