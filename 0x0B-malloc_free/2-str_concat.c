@@ -19,14 +19,6 @@ return (i);
 
 /**
  * str_concat - concatenates two strings
- * @s1: string 1
- * @s2: string 2
- * Return: pointer to new string consisting of concatenated strings
- * or return NULL on failure
- */
-
-/**
- * str_concat - concatenates two strings
  * @s1: first string
  * @s2: second string
  * Return: concatenated strings
@@ -62,5 +54,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		concat[i] = s2[j];
 	}
+	concat[i] = '\0';
 	return (concat);
 }
