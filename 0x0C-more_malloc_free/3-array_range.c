@@ -3,9 +3,10 @@
 
 /**
  * array_range - allocates memory for an array.
- * @min: integer first element
- * @max: integer last element
- * Return: Pointer to the array or NULL.
+ * @min: integer first element of the array
+ * @max: integer last element of the array
+ * Return: If min > max or the function fails - NULL.
+ *   Otherwise - a pointer to the newly created array.
  */
 int *array_range(int min, int max)
 {
