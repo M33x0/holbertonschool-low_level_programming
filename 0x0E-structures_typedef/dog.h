@@ -7,6 +7,9 @@
  * @age: integer
  * @owner: char *
  */
+
+/*dog_t - Typedef for struct dog*/
+typedef struct dog dog_t;
 struct dog
 {
 	char *name;
