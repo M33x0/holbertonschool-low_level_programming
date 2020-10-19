@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "dog.h"
 
 /**
@@ -15,7 +16,7 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	/* the simple way to do this is using '->' symbol */
 	/* is the same than using '.' symbol */
 	/* e.g (*ptr).name is the same than ptr->name but easier :) */
-	if (d)
+	if (d != NULL)
 	{
 		d->name = name;
 		d->age = age;
