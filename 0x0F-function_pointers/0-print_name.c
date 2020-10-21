@@ -4,14 +4,19 @@
 /**
  * print_name - prints a name
  * @name: given name
- * @f:given function
- * Return : Void
+ * @f: given function
+ *
+ * Return: void
  */
 void print_name(char *name, void (*f)(char *))
 {
-if (name == NULL)
-name = "";
-if (f == NULL)
-return;
-f(name);
+	if (name == NULL)
+	{
+		name = "";
+	}
+	if (f == NULL)
+	{
+		return;
+	}
+	f(name);
 }
