@@ -10,13 +10,8 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	if (name == NULL)
+	if (name != NULL && f != NULL)
 	{
-		name = "";
+		f(name);
 	}
-	if (f == NULL)
-	{
-		return;
-	}
-	f(name);
 }
