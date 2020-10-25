@@ -1,28 +1,28 @@
 #include <stdarg.h>
-#include <stdlib.h>
-#include <stdio.h>
 #include "variadic_functions.h"
 
 /**
- * print_numbers - prints numbers
- * @separator: string to be printed between numbers
- * @n: number of numbers
- */
-void print_numbers(const char *separator, const unsigned int n, ...)
+  *sum_them_all - sum of variable arguments
+  *@n : size of arguments
+  *Return: sum
+  */
+int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int i;
+	unsigned int i = 0;
+	unsigned int sum = 0;
 	va_list numbers;
+
+	if (n == 0)
+	{
+		return (0);
+	}
 
 	va_start(numbers, n);
 
 	for (i = 0; i < n; i++)
 	{
-		printf("%d", va_arg(numbers, unsigned int));
-
-		if (i != n - 1 && separator != NULL)
-		{
-			printf("%s", separator);
-		}
+		sum += va_arg(numbers, int);
 	}
-	printf("\n");
+	va_end(numbers);
+	return (sum);
 }
