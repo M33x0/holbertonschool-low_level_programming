@@ -2,6 +2,10 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 
+/**
+ * print_all : Prints every data format
+ * @format: format data type to print
+*/
 void print_all(const char *const format, ...)
 {
 	unsigned int i = 0;
