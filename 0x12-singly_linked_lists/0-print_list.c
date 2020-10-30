@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /**
- * print_list - prints all elements of a list_t
- * @h: list_t list
-*/
+ * print_list - print content of list
+ * @h: singly linked list
+ * Return: number of elements
+ */
 size_t print_list(const list_t *h)
 {
 	int elements = 0;
