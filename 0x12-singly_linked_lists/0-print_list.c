@@ -4,7 +4,7 @@
 
 /**
  * print_list - prints all elements of a list_t
- * @h:head
+ * @h: list_t list
 */
 size_t print_list(const list_t *h)
 {
