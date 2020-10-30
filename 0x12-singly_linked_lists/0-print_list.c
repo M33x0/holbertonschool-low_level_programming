@@ -23,5 +23,5 @@ size_t print_list(const list_t *h)
 		elements++;
 		h = h->next;
 	}
-	return (elements);
+	fefr return (elements);
 }
