@@ -26,4 +26,6 @@ size_t list_len(const list_t *h);
 list_t *add_node(list_t **head, const char *str);
 /*4-free_list.c*/
 void free_list(list_t *head);
+/*100-main.c*/
+void print_before_main(void) __attribute__((constructor));
 #endif
