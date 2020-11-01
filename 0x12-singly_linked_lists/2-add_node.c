@@ -6,7 +6,7 @@
  * _strlen - calculate the length of a string
  * @s: string to given
  * Return : length of the given string
-*/
+ */
 int _strlen(const char *s)
 {
 	int i = 0;
