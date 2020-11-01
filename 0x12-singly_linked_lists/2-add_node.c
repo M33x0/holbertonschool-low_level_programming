@@ -3,9 +3,10 @@
 #include <string.h>
 
 /**
- * _strlen - return the length of a string
- * @s: a given string
- */
+* _strlen - get the length of a string
+* @str: string
+* Return: length
+*/
 
 int _strlen(const char *s)
 {
@@ -19,8 +20,8 @@ int _strlen(const char *s)
 }
 
 /**
- * add_node : add a new node at the star of list_t
- * @head: head of the list_t
+ * add_node : add a new node at the beginning of list_t list
+ * @head: pointer to head
  * @str: given string
  * Return : number of node in list_t
  */
