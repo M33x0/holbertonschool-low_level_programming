@@ -5,6 +5,7 @@
 /**
 * _strlen - get the length of a string
 * @str: string
+*
 * Return: length
 */
 
@@ -23,6 +24,7 @@ int _strlen(const char *s)
  * add_node : add a new node at the beginning of list_t list
  * @head: pointer to head
  * @str: given string
+ *
  * Return : number of node in list_t
  */
 
