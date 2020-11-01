@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdlib.h>
+#include <stdio.h>
 #include <string.h>
 
 /**
@@ -27,7 +28,6 @@ int _strlen(const char *s)
  *
  * Return : number of node in list_t
  */
-
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new_element;
