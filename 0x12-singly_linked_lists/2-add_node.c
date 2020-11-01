@@ -39,11 +39,11 @@ list_t *add_node(list_t **head, const char *str)
 	new_element->str = strdup(str);
 	new_element->len = _strlen(str);
 
-	new_element->next = NULL;
-	if (*head != NULL)
+	new_element->next = *head;
+	/*	if (*head != NULL)
 	{
 		new_element->next = *head;
-	}
+	}*/
 	*head = new_element;
 	return (new_element);
 }
