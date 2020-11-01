@@ -6,6 +6,7 @@
  * _strlen - return the length of a string
  * @s: a given string
  */
+
 int _strlen(const char *s)
 {
 	int i = 0;
@@ -23,6 +24,7 @@ int _strlen(const char *s)
  * @str: given string
  * Return : number of node in list_t
  */
+
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new_element;
