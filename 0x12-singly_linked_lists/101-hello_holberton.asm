@@ -1,13 +1,20 @@
-section .data
+	extern printf
+	global main
 
-    message db "Hello, Holberton", 10
+	section .text
+main:
+	push rbp
 
-section .text
+	mov rdi, fmt 		;arg3, length of string
+	mov rsi, msg 		;arg2, pointer to string
+	mov rax, 0 		;arg1, write to screen
+	call printf
 
-global _start
-_start:
-    mov rax, 1
-    mov rdi, 1
-    mov rsi, message
-    mov rdx, 14
-    syscall
+	pop rbp
+
+	mov rax,0
+	ret
+msg:
+	db "Hello, Holberton", 0
+fmt:
+	db "%s", 10, 0
