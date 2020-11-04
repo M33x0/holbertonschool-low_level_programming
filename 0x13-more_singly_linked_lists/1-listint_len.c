@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- *size_t listint_le - Return  all the elements in the list
+ *size_t listint_len - Return  all the elements in the list
  *@h:head pointer
  *Return: number of node
  */
