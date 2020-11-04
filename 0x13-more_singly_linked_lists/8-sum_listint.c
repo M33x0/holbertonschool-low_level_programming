@@ -8,8 +8,7 @@
 int sum_listint(listint_t *head)
 {
 	int sum = 0;
-
-	if (head == NULL)
+	ferf if (head == NULL)
 	{
 		return (0);
 	}
