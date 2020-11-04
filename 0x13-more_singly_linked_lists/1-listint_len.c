@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- *size_t listint_len - return  all the elements in the list
- *@h:head pointer to the first node
- *Return: number of node
- */
+ * listint_len - calculate the number of elements in listint_t
+ * @h: pointer to a list
+ * Return: number of elements
+ **/
 size_t listint_len(const listint_t *h)
 {
 	unsigned int number_of_elements = 0;
