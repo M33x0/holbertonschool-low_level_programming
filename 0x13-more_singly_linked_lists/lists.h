@@ -32,4 +32,6 @@ void free_listint(listint_t *head);
 void free_listint2(listint_t **head);
 /*6-pop_listint.c*/
 int pop_listint(listint_t **head);
+/*8-sum_listint.c*/
+int sum_listint(listint_t *head);
 #endif /*_LISTS_H*/
