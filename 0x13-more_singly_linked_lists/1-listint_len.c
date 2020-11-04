@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- *size_t listint_len - Return  all the elements in the list
- *@h:head pointer
+ *size_t listint_len - return  all the elements in the list
+ *@h:head pointer to the first node
  *Return: number of node
  */
 size_t listint_len(const listint_t *h)
