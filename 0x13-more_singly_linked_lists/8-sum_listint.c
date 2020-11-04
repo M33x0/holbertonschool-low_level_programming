@@ -2,6 +2,7 @@
 
 /**
  *sum_listint - calculate the sum of all the data of the list
+ *@head: first node of the list
 */
 int sum_listint(listint_t *head)
 {
