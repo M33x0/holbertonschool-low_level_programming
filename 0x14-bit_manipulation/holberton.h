@@ -6,4 +6,6 @@
 int _putchar(char c);
 /*0-binary_to_uint.c*/
 unsigned int binary_to_uint(const char *b);
+/*1-print_binary.c*/
+void print_binary(unsigned long int n);
 #endif /* _HOLBERTON_H*/
