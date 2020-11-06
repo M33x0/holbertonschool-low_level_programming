@@ -37,6 +37,8 @@ int pop_listint(listint_t **head);
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
 /*8-sum_listint.c*/
 int sum_listint(listint_t *head);
+/*10-delete_nodeint.c*/
+int delete_nodeint_at_index(listint_t **head, unsigned int index);
 /*100-main.c*/
 listint_t *reverse_listint(listint_t **head);
 #endif /*_LISTS_H*/
