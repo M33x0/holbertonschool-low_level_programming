@@ -8,4 +8,6 @@ int _putchar(char c);
 unsigned int binary_to_uint(const char *b);
 /*1-print_binary.c*/
 void print_binary(unsigned long int n);
+/*100-get_endianness.c*/
+int get_endianness(void);
 #endif /* _HOLBERTON_H*/
