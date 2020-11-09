@@ -18,10 +18,8 @@ int create_file(const char *filename, char *text_content)
 
 	if (text_content != NULL)
 	{
-		while (length != '\0')
-		{
+		for (length = 0; text_content[length];)
 			length++;
-		}
 	}
 
 	o = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
