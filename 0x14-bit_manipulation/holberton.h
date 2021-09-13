@@ -12,4 +12,5 @@ int set_bit(unsigned long int *n, unsigned int index);
 /*100-get_endianness.c*/
 int get_endianness(void);
 int get_bit(unsigned long int n, unsigned int index);
+int clear_bit(unsigned long int *n, unsigned int index);
 #endif /* _HOLBERTON_H*/
